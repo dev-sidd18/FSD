@@ -6,5 +6,5 @@ app.on('login',(user)=>{
 app.on('massage',(msg)=>{
     console.log(`Massage: ${msg}`);
 });
-app.emit('login','Aman');
+app.emit('login','siddhartha');
 app.emit('massage','Welcome to Node.js');
